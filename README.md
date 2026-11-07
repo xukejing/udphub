@@ -1,37 +1,11 @@
 # udphub
 
 #### 介绍
-尘埃拉力塞UDP数据高速转发
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+尘埃拉力塞UDP数据高速转发。  
+这是一个基于 MFC 的对话框程序 UDP 数据转发中心（Hub）。  
+#### 核心功能：
+在本机指定端口（默认 20777/20778）监听 UDP 数据；  
+每收到一个数据包，原样转发给 5 个目标地址（IP + 端口）；  
+通过“启动/停止”按钮控制工作线程；统计接收/转发/错误计数  
+#### 编译教程
+下载后用VisualStudio2022打开，编译，运行
